@@ -22,13 +22,15 @@ public class dp4_frog_k {
         System.out.println("enter total number of steps and the k value(no.of steps:jumped at a time)");
         int a=sc.nextInt();
         int k=sc.nextInt();
+        System.out.println("Enter step values:");
         int arr[]=new int[a];
         int dp[]=new int[a];
         for(int i=0;i<a;i++)
         {
             arr[i]=sc.nextInt();
         }
-        Arrays.fill(dp,-1);    
-    System.out.println(func(a-1,arr,dp,k));
+        Arrays.fill(dp,-1); 
+        System.out.println("Ans:");   
+    System.out.print(func(a-1,arr,dp,k));
     }
 }
