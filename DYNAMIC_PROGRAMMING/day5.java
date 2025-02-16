@@ -15,7 +15,7 @@ public class dp5_maxsum_of_nonadjacent_elements {
         return dp[ind] = Math.max(pick, nonPick);
     }
 public static void main(String args[]) {
-    int arr[] = {2, 1, -4, 9,-9,10,11};
+    int arr[] = {2, 1, 4, 9};
     int n = arr.length;
     int dp[] = new int[n];
      Arrays.fill(dp, -1);
