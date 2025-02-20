@@ -32,6 +32,6 @@ class Solution {
             curr = curr.next;
         }
         
-        return head;
+        return oldToNew.get(head);
     }
 }
